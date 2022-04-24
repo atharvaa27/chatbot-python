@@ -1,0 +1,160 @@
+{
+  "intents": [
+ 
+   
+
+    {
+      "tag": "accredited",
+      "patterns": [
+        "Is the college accredited",
+        "Is VIT accredited",
+        "Is Vidyalankar Institute of Technology accredited?"
+        
+      ],
+      "responses": [
+        "Yes, Vidyalankar  Institute of Technology is accredited A+ by NAAC"
+      ]
+    },
+    {
+      "tag": "eligible admission",
+      "patterns": [
+       "Am I eligible for admission to engineering course?",
+       "Eligibility criteria for admission ",
+       "who all are eligible for engineering admission"
+       
+      ],
+      "responses": [
+        "Please refer to the eligibility criteria specified by the Competent Authority for Admissions, in Admission Brochure on http://cetcell.mahacet.org/"
+      ]
+    },
+    {
+      "tag": "close existing course to start emerging course",
+      "patterns": [
+        "Whether institute can apply for emerging course by closing the existing course?",
+        "Can institute close the existing course and apply for emerging courses?",
+        "Is it acceptable to close the existing course and apply for emerging course"
+      ],
+      "responses": [
+        "Yes. As per the procedure laid down in APH 2021-22"
+      ]
+    },
+    {
+      "tag": "admission process Institute Level Quota",
+      "patterns": [
+        "When admission process for Institute Level Quota seats shall begin?",
+        "when will admission process for Institute Level Quota will start"
+        
+      ],
+      "responses": [
+        "Admission process for Institute Level Quota seats shall begin as soon as State CET Cell /DTE announce admission rules and calendar. Be connected with www.vit.edu.in for updates."
+      ]
+    },
+    {
+      "tag": "Internship Entrepreneurship Start-up",
+      "patterns": [
+       "Does college offer Internship and/or Entrepreneurship/Start-up guidance?",
+       "Is there any opportunity for Internship and/or Entrepreneurship/Start-up",
+       "What is scope for Internship and/or Entrepreneurship/Start-up"
+       
+      ],
+      "responses": [
+        "Institute has dedicated Internship Cell. It offers internship opportunities to students in external organisations. All departments also offer in-house internships to students. Institute has Entrepreneurship Nurturing Cell. This cell guides interested"
+      ]
+    },
+    {
+      "tag": "HOD IT INFT department",
+      "patterns": [
+       "Who is the HOD of INFT department",
+       "HOD of IT department"
+       
+      ],
+      "responses": [
+        "Dr. Vipul Dalal"
+      ]
+    },
+    {
+      "tag": "contact principal",
+      "patterns": [
+       "How can i contact the principal",
+       "How to contact principal"
+       
+      ],
+      "responses": [
+        "you can mail to principle@vit.edu.in"
+      ]
+    },
+    {
+      "tag": "contact erp",
+      "patterns": [
+        "Whom should we contact for erp realated query",
+        "whom to contact for erp query"
+
+      ],
+      "responses": [
+        "sudhir.kulkarni@vit.edu.in"
+      ]
+    },
+    {
+      "tag": "exam coordinator INFT",
+      "patterns": [
+       "Who is the exam coordinator of INFT",
+       "Exam coordinator of INFT department"
+       
+      ],
+      "responses": [
+        "Prof. Vinita Bhandiwad is the exam cordinator of the INFT department"
+      ]
+    
+    },
+
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Location",
+      "patterns": ["Where is VIT located?", "Where is Vidyalankar Institute Of Technology Located?"],
+      "responses":["Vidyalankar Institute Of Technology is located in Wadala, Mumbai, India"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
